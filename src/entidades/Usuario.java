@@ -1,7 +1,6 @@
 package entidades;
 
 
-import java.util.List;
 import java.util.UUID;
 
 public class Usuario {
@@ -13,7 +12,6 @@ public class Usuario {
         this.id = UUID.randomUUID().toString();
         this.nome = nome;
         this.email = email;
-
     }
 
     public String getId() {

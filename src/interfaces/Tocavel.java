@@ -4,5 +4,10 @@ import entidades.Musica;
 import java.util.List;
 
 public interface Tocavel {
-    List<Musica> obterMusicas();
+    void tocar();
+    void pausar();
+    void parar();
+    String getTitulo();
+    double getDuracao();
+
 }

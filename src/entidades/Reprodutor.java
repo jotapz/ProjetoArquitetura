@@ -1,11 +1,11 @@
 package entidades;
 
 import java.util.List;
-import interfaces.Tocavel;
+import interfaces.ITocavel;
 
 public class Reprodutor {
 
-    public void tocarItem(Tocavel item) {
+    public void tocarItem(ITocavel item) {
         System.out.println("▶️ Iniciando reprodução...");
         List<Musica> musicasParaTocar = item.obterMusicas();
         for (Musica musica : musicasParaTocar) {
